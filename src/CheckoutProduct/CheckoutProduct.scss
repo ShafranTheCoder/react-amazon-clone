@@ -1,0 +1,43 @@
+.checkout-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 15px;
+  height: auto;
+  width: 350px;
+  padding: 20px;
+  background-color: #f3f3f3;
+
+  &__info {
+    margin: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    align-self: baseline;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__price {
+    margin-top: 5px;
+  }
+  &__rating {
+    display: flex;
+  }
+
+  img {
+    height: auto;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background: #f0c14b;
+    border: none;
+    border-radius: 5px;
+  }
+}

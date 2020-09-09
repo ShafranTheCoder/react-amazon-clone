@@ -1,0 +1,17 @@
+.home {
+  max-width: 1500px;
+  margin: 0 auto;
+
+  &__image {
+    position: relative;
+    width: 100%;
+    margin-bottom: -100px;
+    z-index: -1;
+  }
+
+  &__row {
+    display: flex;
+    z-index: 1;
+    margin: 0 5px;
+  }
+}
